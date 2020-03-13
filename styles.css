@@ -1,0 +1,349 @@
+/* Global Styles
+-------------------------------*/
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    background-image: url(Woo10_bckgrnd.png);
+    background-size: 1400px;
+    color: rgb(70, 70, 70);
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 15px;
+    margin: -12px;
+    line-height: 1.5;
+    background-color: rgb(28, 72, 97);
+}
+/*#backgroundimage {
+    background-image: url(Woo10_bckgrnd.png);
+}*/
+nav ul {
+    float: right;
+    padding: 10px;
+    margin-right: 40px;
+    margin-top: -160px;
+    text-decoration: none;
+}
+nav a {
+    color: white;
+    border: white solid 15px 0;
+    font-size: 17px;
+    font-family: 'Alpha Slab One', sans-serif;
+    margin: 10px 10px 15px 20px;
+    border-radius: 10px white;
+    text-decoration: none;
+}
+nav a:hover {
+    border-bottom: 5px solid white;
+    text-decoration: none;
+   
+    padding: 5px 7px;
+    margin-right: 10px;
+    color: rgb(168, 168, 168);
+}
+nav ul li {
+    text-decoration: none;
+    display: inline;
+    position: relative;
+    margin-right: 15px;
+    border-bottom: 6px white solid;
+    border-style: hidden;
+}
+nav ul li a {
+    padding-right: 11px;
+     border-bottom: 6px;
+}
+nav ul li ul {
+    position: absolute;
+    left: -9999px;
+    top: 13.5em;
+    padding: 0;
+    margin-right: 5px;
+    margin-top: -11.75em;
+    width: 200px;
+    background-color: #e4d536;
+    border-radius: 10px;
+    border: 4px solid white;
+    text-decoration: none;
+}
+nav li:hover ul {
+    left: 0;
+}
+
+.title {
+    color: rgb(255, 255, 255);
+    padding-bottom: 75px;
+    padding-left: 100px;
+    margin-right: 10px;
+}
+h1, h2 {
+font-family: 'Alfa Slab One', cursive;
+}
+
+img {
+    width: 300px;
+}
+a:link {
+    color: white;
+}
+a:hover {
+    text-decoration: none;
+    text-align: left;
+}
+li a {
+    display: inline-block;
+}
+h2 {
+    margin: 0;
+}
+.content-wrap {
+    width: 900px;
+    margin: 0 auto 50px;
+    padding: 50px 50px 100px 300px;
+}
+
+/* Profile
+-------------------------------*/
+
+.Wooten-Logo {
+    width: 200px;
+    align-content: center;
+}
+.Wooten_Designs {
+    padding-top: 2px;
+    padding-bottom: 10px;
+    text-align: center;
+    background: #F7FFF7;
+}
+.Wooten_Designs a {
+    color: #F7FFF7;
+    background: #e0d100;
+    text-decoration: none;
+    padding-bottom: 10px;
+    padding-top: 2px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 5px;
+}
+/* Projects
+------------------------------*/
+.projects {
+        background: #F7FFF7;
+        padding-left: 7rem;
+        padding-top: 5px;
+        padding-bottom: 5px;
+     }
+.projects a {
+    color: #F7FFF7;
+    background: #e0d100;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 5px;
+}
+.projects a:hover {
+    background: #635d13;
+}
+         
+.projects .btn {
+    color: #F7FFF7;
+    background: #A1C6D7;
+    text-decoration: none;
+    padding: 8px 10px;
+    border-radius: 4px;
+    display: inline-block;
+}
+.projects .btn:hover {
+    background: rgba(3, 72, 117, 0.8);
+}
+.Vectorslogos { 
+    padding-top: 8px;
+
+}
+
+.Easy-Street-Logo {
+    width: 350px;
+    margin-right: 2px;
+    text-align: center;
+    }
+.Reposaudo {
+    width: 250px;
+    padding: 10px -2rem;
+    float: right;
+    margin: -29.8rem 20rem 9rem;
+    text-align: center;
+}
+
+.Alpha-Organics {
+    float: right;
+    margin: -73px 88px;
+    padding: 0;
+    text-align: center;
+}
+
+.Woo10_businesscardmockup {
+    width: 600px;
+    text-align: center;
+    margin: 0 0 0 -46px; 
+    padding-top: 40px;
+}
+.UIUX_Design {
+    width: 1446px;
+    background: rgb(70, 70, 69);
+    margin: 65px 0px -171px -79px;
+    padding: 35px 656px 1px 53px;
+
+}
+.UIUX_Design p {
+    margin-left: 80PX;
+}
+.mobileappdev {
+    color: rgb(255, 255, 255); 
+    margin: 81px -66px 52px;
+    padding: 0 0 0 46px;
+    width: 268px;
+    
+} 
+
+.Iso_P {
+    margin: -423px -280px 90px 281px;
+    padding: 0 66px 232px;
+}
+
+.mobileapp {
+    margin: 70px;
+    padding-left: 10px;
+}
+/* Work Experience
+-------------------------------*/
+.grid-container {
+    display: grid;
+    grid-gap: 30px 75px;
+    grid-template-columns: auto auto;
+    padding: 10px;
+  }
+  
+  .grid-item {
+    padding: 5px;
+    font-size: 20px;
+    margin: 20px;
+    text-align: center;
+  }
+
+.work-experience {
+     background: rgb(255, 233, 31);
+     margin-top: 102px;
+     margin-left: -100px;
+     padding-top: 89px;
+     padding-bottom: 5px;
+     padding-left: 90px;
+     box-sizing: inherit;
+}
+.Intership {
+    display: grid;
+    grid-gap: 6px 15px;
+    grid-template-columns: 1fr;
+    grid-template-columns: auto auto;
+    grid-column-start: 2;
+    column-gap: 215px;
+    
+}
+.freelance {
+    display: grid;
+    grid-gap: 20px 90px;
+}
+.freelance img {
+    width: 375px;
+    padding-left: 62px;
+    padding-top: 35px;
+}
+.freelance ul {
+    margin-left: 60px;
+}
+.packagedesign {
+    width: 325px;
+    padding-left: 70px;
+    padding-top: 40px;
+    text-align: center;
+}
+.packagedesign img {
+    width: 275px;
+}
+.tshirtdesign {
+    padding-top: 40px;
+    text-align: center;
+    margin: 25px 0 0 -215px;
+}
+.tshirtdesign ul {
+    margin-left:-43px;
+}
+.designagency {
+    margin-left: 93px;
+}
+.designagency ul {
+    margin-left: -63px;
+}
+
+/* Education
+-------------------------------*/
+.degrees-certifictions {
+    padding-bottom: 65px;
+    margin-left: -100px;
+    padding-left: 90px;
+    padding-top: 15px;
+    background: rgb(255, 233, 31);
+}
+.grid-item {
+    margin: 10px;
+}
+    
+
+/* Contact Info
+-------------------------------*/
+
+footer {
+    background-color: rgb(28, 72, 97);
+    color: #F7FFF7;
+    height: auto;
+    padding-bottom: 2rem;
+    padding-top: 3rem;
+    padding-right: 5rem;
+    padding-left: 5rem;
+    margin-left: -100px;
+    grid-template-columns: auto auto;
+}
+
+footer li {
+    text-decoration: none;
+    list-style-type: none;
+    margin: 1.25em;
+}
+footer ul li a:link {
+    color: #000000;
+
+}
+article {
+    margin-left: 235px;
+}
+
+
+article >.contact-list >.social {
+    display: inline-block;
+    background-color: rgb(255, 255, 77);
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 20px;
+}
+   
+article >.contact-list >.social > a:hover {
+    display: block;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(163, 147, 4);
+}
+
+
+
